@@ -8,25 +8,25 @@ import Slider from 'react-slick';
       dots: true,
       infinite: true,
       speed: 500,
-      slidesToShow: 6, // Default number of slides
+      slidesToShow: 6, 
       slidesToScroll: 1,
       responsive: [
         {
-          breakpoint: 1024, // For devices <= 1024px
+          breakpoint: 1024, 
           settings: {
             slidesToShow: 4,
             slidesToScroll: 1,
           },
         },
         {
-          breakpoint: 768, // For devices <= 768px (tablets)
+          breakpoint: 768, 
           settings: {
             slidesToShow: 2,
             slidesToScroll: 1,
           },
         },
         {
-          breakpoint: 480, // For devices <= 480px (mobile)
+          breakpoint: 480, 
           settings: {
             slidesToShow: 1,
             slidesToScroll: 1,
@@ -50,11 +50,11 @@ import Slider from 'react-slick';
   categories?.map((category, i) => (
     <div className="cursor-pointer p-2" key={i}>
       <img
-        className="h-[200px] w-full object-cover md:h-[180px] sm:h-[150px]" // Adjust height based on screen size
+        className="h-[200px] w-full object-cover" 
         src={category.image}
         alt={category.name}
       />
-      <h3 className="text-lg md:text-base sm:text-sm text-center pt-3 text-green-600">
+      <h3 className="text-sm text-green-600 mt-3">
         {category.name}
       </h3>
     </div>
