@@ -71,7 +71,7 @@ const navigate = useNavigate()
               <li><NavLink to={"/wishlist"} className="px-2 text-white  hover:text-green-500 font-bold">Wish List</NavLink></li>
               <li><NavLink to={"/products"} className="px-2 text-white  hover:text-green-500 font-bold">Products</NavLink></li>
               <li><NavLink to={"/brands"} className="px-2 text-white  hover:text-green-500 font-bold">Brands</NavLink></li>
-              <li><NavLink to={"/catigories"} className="px-2 text-white  hover:text-green-500 font-bold">Categories</NavLink></li>
+              <li><NavLink to={"/categories"} className="px-2 text-white  hover:text-green-500 font-bold">Categories</NavLink></li>
           </ul>
           
 
